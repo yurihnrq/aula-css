@@ -88,7 +88,6 @@ nav#menu_01 ul li a{
 	transition: background-color 1s, box-shadow 1s, font-size 0.3s;
 }
 nav#menu_01 ul li a:hover{
-	font-size: 18pt;
 	background-color: #FFAF9C;
 	box-shadow: 0px 0px 10px black;
 }
@@ -132,3 +131,53 @@ figure.imagem figcaption:hover{
 figure#img_peq01, figure#img_peq02{
 	width: 400px;
 }
+
+article#artigo_01, article#artigo_02{
+	margin: 20px;
+}
+
+article#artigo_01 h3, article#artigo_02 h3{
+	font-size: 20pt;
+	font-family: 'Bubblegum Sans';
+	text-align: center;
+	color: white;
+	box-shadow: 1px 1px 20px black;
+	text-shadow: 5px 5px 10px black;
+}
+article#artigo_01 p, article#artigo_02 p{
+	text-align: justify;
+	text-indent: 20px;
+	color: white;
+	font-family: 'Patua One';
+}
+
+div#rodape{
+	width: 300px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+a.final h4{
+	text-align: center;
+	background-color: white;
+	color: darkred;
+	margin-left: auto;
+	margin-right: auto;
+	width: 300px;
+	border-radius: 10px;
+	transition: background-color 0.3s, color 0.3s, box-shadow 0.3s;
+}
+
+a.final h4:hover{
+	background-color: darkred;
+	color: white;
+	box-shadow: 1px 1px 5px black;
+}
+
+a.final h4:active{
+	background-color: #FFA960;
+	color: black;
+	box-shadow: 1px 1px 5px #7F6B5C;
+}
+
+
